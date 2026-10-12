@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "Quality Gates for Cooperation-Mode Labels"
+message: "If you use this code, please cite the paper."
+authors:
+  - family-names: Hayashi
+    given-names: Kazutaka
+    affiliation: "YOROSIX, Osaka, Japan"
+    orcid: "https://orcid.org/0009-0007-0052-0718"
+type: software
+license: MIT

@@ -1,0 +1,59 @@
+{
+  "generated": "2026-09-24T13:27:13",
+  "raw_row_counts": {
+    "members": 10000,
+    "posts": 94,
+    "visits": 7442,
+    "shares": 863,
+    "replies": 109,
+    "meta": 59
+  },
+  "source_sha256": {
+    "members": "9d87cd262737d7b4",
+    "posts": "aa11a4097aafd4ab",
+    "visits": "d66bebc6be2a9934",
+    "shares": "b846d21da11b3cda",
+    "replies": "d6a4b38018ea6da7",
+    "meta": "3400c9ee5942b965"
+  },
+  "unit": "session",
+  "n_units": 254,
+  "mode_counts": {
+    "pass": 250,
+    "direct_help": 2,
+    "broker": 2
+  },
+  "gates": {
+    "G1_exclusion": "applied",
+    "G2_min_positives": 30,
+    "G3_leakage": "features={dwell,scroll,n_visits}; label cols (replies, shares) never used as features",
+    "G4": {
+      "pass": {
+        "n_pos": 250,
+        "n_neg": 4,
+        "verdict": "DATA_INSUFFICIENT (need >= 30 pos and neg)"
+      },
+      "broker": {
+        "n_pos": 2,
+        "n_neg": 252,
+        "verdict": "DATA_INSUFFICIENT (need >= 30 pos and neg)"
+      },
+      "chain_origin": {
+        "n_pos": 0,
+        "n_neg": 254,
+        "verdict": "DATA_INSUFFICIENT (need >= 30 pos and neg)"
+      },
+      "direct_help": {
+        "n_pos": 2,
+        "n_neg": 252,
+        "verdict": "DATA_INSUFFICIENT (need >= 30 pos and neg)"
+      }
+    }
+  },
+  "structural_notes": [
+    "session unit: 1164 bot visits, 4897 test-fixture visits removed",
+    "session unit: broker = share button CLICK (not verified share); chain_origin not attributable (share_links has no session/ip)"
+  ],
+  "usable_as_supervised_data": false,
+  "excluded_member_count": 5
+}
