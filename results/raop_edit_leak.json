@@ -1,0 +1,8 @@
+{
+ "req_only_auc_mean": 0.6504945000467277,
+ "req_only_auc_sd": 0.0012265345377969854,
+ "req_plus_edit_auc_mean": 0.6729584737533366,
+ "req_plus_edit_auc_sd": 0.0013204632922929234,
+ "edited_rate_success": 0.2612741589119542,
+ "edited_rate_fail": 0.13196069255966308
+}

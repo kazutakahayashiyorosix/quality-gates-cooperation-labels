@@ -1,0 +1,157 @@
+{
+ "summary": {
+  "n": 5671,
+  "n_pos": 1397,
+  "base_rate": 0.24634103332745547,
+  "activity_auc": 0.5592314770369958,
+  "request_only_auc": 0.6497980665166248
+ },
+ "rows": [
+  {
+   "scenario": "documented",
+   "procedure": "naive",
+   "certified_rate": 1.0,
+   "model_auc": 0.9997847851653503,
+   "n_features": 26,
+   "post_outcome_features_used": [
+    "number_of_downvotes_of_request_at_retrieval",
+    "number_of_upvotes_of_request_at_retrieval",
+    "request_number_of_comments_at_retrieval",
+    "requester_account_age_in_days_at_retrieval",
+    "requester_days_since_first_post_on_raop_at_retrieval",
+    "requester_number_of_comments_at_retrieval",
+    "requester_number_of_comments_in_raop_at_retrieval",
+    "requester_number_of_posts_at_retrieval",
+    "requester_number_of_posts_on_raop_at_retrieval",
+    "requester_upvotes_minus_downvotes_at_retrieval",
+    "requester_upvotes_plus_downvotes_at_retrieval",
+    "has_user_flair",
+    "giver_known",
+    "post_was_edited",
+    "edit_length"
+   ],
+   "declined_at": [],
+   "gate_auc": 0.9997509369800717,
+   "gate_auc_base": null
+  },
+  {
+   "scenario": "documented",
+   "procedure": "practitioner",
+   "certified_rate": 1.0,
+   "model_auc": 0.8925464989654615,
+   "n_features": 25,
+   "post_outcome_features_used": [
+    "number_of_downvotes_of_request_at_retrieval",
+    "number_of_upvotes_of_request_at_retrieval",
+    "request_number_of_comments_at_retrieval",
+    "requester_account_age_in_days_at_retrieval",
+    "requester_days_since_first_post_on_raop_at_retrieval",
+    "requester_number_of_comments_at_retrieval",
+    "requester_number_of_comments_in_raop_at_retrieval",
+    "requester_number_of_posts_at_retrieval",
+    "requester_number_of_posts_on_raop_at_retrieval",
+    "requester_upvotes_minus_downvotes_at_retrieval",
+    "requester_upvotes_plus_downvotes_at_retrieval",
+    "giver_known",
+    "post_was_edited",
+    "edit_length"
+   ],
+   "declined_at": [],
+   "gate_auc": null,
+   "gate_auc_base": null
+  },
+  {
+   "scenario": "documented",
+   "procedure": "gates",
+   "certified_rate": 1.0,
+   "model_auc": 0.6726723050161972,
+   "n_features": 13,
+   "post_outcome_features_used": [
+    "post_was_edited",
+    "edit_length"
+   ],
+   "declined_at": [],
+   "gate_auc": 0.6729584737533366,
+   "gate_auc_base": 0.5592314770369957
+  },
+  {
+   "scenario": "undeclared",
+   "procedure": "naive",
+   "certified_rate": 1.0,
+   "model_auc": 0.9997847851653503,
+   "n_features": 26,
+   "post_outcome_features_used": [
+    "number_of_downvotes_of_request_at_retrieval",
+    "number_of_upvotes_of_request_at_retrieval",
+    "request_number_of_comments_at_retrieval",
+    "requester_account_age_in_days_at_retrieval",
+    "requester_days_since_first_post_on_raop_at_retrieval",
+    "requester_number_of_comments_at_retrieval",
+    "requester_number_of_comments_in_raop_at_retrieval",
+    "requester_number_of_posts_at_retrieval",
+    "requester_number_of_posts_on_raop_at_retrieval",
+    "requester_upvotes_minus_downvotes_at_retrieval",
+    "requester_upvotes_plus_downvotes_at_retrieval",
+    "has_user_flair",
+    "giver_known",
+    "post_was_edited",
+    "edit_length"
+   ],
+   "declined_at": [],
+   "gate_auc": 0.9997509369800717,
+   "gate_auc_base": null
+  },
+  {
+   "scenario": "undeclared",
+   "procedure": "practitioner",
+   "certified_rate": 1.0,
+   "model_auc": 0.8925464989654615,
+   "n_features": 25,
+   "post_outcome_features_used": [
+    "number_of_downvotes_of_request_at_retrieval",
+    "number_of_upvotes_of_request_at_retrieval",
+    "request_number_of_comments_at_retrieval",
+    "requester_account_age_in_days_at_retrieval",
+    "requester_days_since_first_post_on_raop_at_retrieval",
+    "requester_number_of_comments_at_retrieval",
+    "requester_number_of_comments_in_raop_at_retrieval",
+    "requester_number_of_posts_at_retrieval",
+    "requester_number_of_posts_on_raop_at_retrieval",
+    "requester_upvotes_minus_downvotes_at_retrieval",
+    "requester_upvotes_plus_downvotes_at_retrieval",
+    "giver_known",
+    "post_was_edited",
+    "edit_length"
+   ],
+   "declined_at": [],
+   "gate_auc": null,
+   "gate_auc_base": null
+  },
+  {
+   "scenario": "undeclared",
+   "procedure": "gates",
+   "certified_rate": 1.0,
+   "model_auc": 0.8925464989654615,
+   "n_features": 25,
+   "post_outcome_features_used": [
+    "number_of_downvotes_of_request_at_retrieval",
+    "number_of_upvotes_of_request_at_retrieval",
+    "request_number_of_comments_at_retrieval",
+    "requester_account_age_in_days_at_retrieval",
+    "requester_days_since_first_post_on_raop_at_retrieval",
+    "requester_number_of_comments_at_retrieval",
+    "requester_number_of_comments_in_raop_at_retrieval",
+    "requester_number_of_posts_at_retrieval",
+    "requester_number_of_posts_on_raop_at_retrieval",
+    "requester_upvotes_minus_downvotes_at_retrieval",
+    "requester_upvotes_plus_downvotes_at_retrieval",
+    "giver_known",
+    "post_was_edited",
+    "edit_length"
+   ],
+   "declined_at": [],
+   "gate_auc": 0.8924733175475623,
+   "gate_auc_base": 0.5592314770369957
+  }
+ ]
+}
