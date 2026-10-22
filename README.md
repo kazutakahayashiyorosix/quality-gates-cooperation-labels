@@ -13,6 +13,7 @@ The paper proposes four gates that a cooperation-mode label (pass, broker, chain
 | `pipeline_v2.py` | Mode labels, gates and data card from raw platform exports (member or session unit) |
 | `data_card_platform.json` | Data card from the operating platform (aggregate counts only; raw exports are not released) |
 | `raop_case.py` | The gates on the Random Acts of Pizza dataset (public data with documented leakage) |
+| `raop_ext.py` | Operator contamination (G1) and sample-size limits (G2) on the same public dataset |
 | `make_raop_fig.py` | Figure for the public-data test |
 | `results/` | Result files used in the paper |
 
@@ -26,6 +27,7 @@ python make_tables.py             # writes the LaTeX tables and macros
 # public-data test: download pizza_request_dataset.tar.gz from
 # https://snap.stanford.edu/data/web-RedditPizzaRequests.html and unpack it, then
 python raop_case.py pizza_request_dataset/pizza_request_dataset.json   # about 30 seconds
+python raop_ext.py  pizza_request_dataset/pizza_request_dataset.json   # about 2 minutes
 python make_raop_fig.py
 ```
 

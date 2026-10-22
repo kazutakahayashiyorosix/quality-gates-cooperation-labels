@@ -1,0 +1,68 @@
+{
+ "clean": {
+  "naive_cert": 0.0,
+  "gates_cert": 1.0,
+  "auc": 0.6497980665166248,
+  "activity_auc": 0.5592314770369958
+ },
+ "scarcity": [
+  {
+   "n_pos": 10,
+   "n_neg": 31,
+   "naive": 0.1,
+   "practitioner": 0.0,
+   "gates": 0.0,
+   "naive_auc": 0.5112903225806451
+  },
+  {
+   "n_pos": 20,
+   "n_neg": 61,
+   "naive": 0.12,
+   "practitioner": 0.0,
+   "gates": 0.0,
+   "naive_auc": 0.5684754098360656
+  },
+  {
+   "n_pos": 30,
+   "n_neg": 92,
+   "naive": 0.0,
+   "practitioner": 0.0,
+   "gates": 0.06,
+   "naive_auc": 0.5788985507246376
+  },
+  {
+   "n_pos": 50,
+   "n_neg": 153,
+   "naive": 0.0,
+   "practitioner": 0.0,
+   "gates": 0.04,
+   "naive_auc": 0.5822300653594771
+  },
+  {
+   "n_pos": 100,
+   "n_neg": 306,
+   "naive": 0.02,
+   "practitioner": 0.02,
+   "gates": 0.4,
+   "naive_auc": 0.6227176470588235
+  },
+  {
+   "n_pos": 200,
+   "n_neg": 612,
+   "naive": 0.0,
+   "practitioner": 0.0,
+   "gates": 0.86,
+   "naive_auc": 0.6338575163398693
+  }
+ ],
+ "contamination": {
+  "naive": 1.0,
+  "naive_auc": 0.7103346318982209,
+  "practitioner": 1.0,
+  "gates": 1.0,
+  "gates_auc": 0.6504444981876734,
+  "gates_auc_base": 0.5592314770369957,
+  "gates_noG1": 1.0,
+  "gates_noG1_auc": 0.7103346318982209
+ }
+}
